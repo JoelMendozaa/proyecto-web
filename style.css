@@ -11,3 +11,20 @@ footer{
     bottom: 0; /* Pegado abajo */
     left: 0; /* Pegado a la izquierda */
     text-align: center; /* Texto centrado */
+}
+
+.contenido {
+    margin-left: 220px; /* Deja espacio para el navigation */
+    padding: 1em;
+}
+
+.contenido h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.contenido p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
