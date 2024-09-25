@@ -3,3 +3,11 @@ header {
     width: 100%;
     text-align: center;
 }
+
+footer{
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: green; /* Fondo verde */
+    position: fixed; /* Fijo en pantalla */
+    bottom: 0; /* Pegado abajo */
+    left: 0; /* Pegado a la izquierda */
+    text-align: center; /* Texto centrado */
