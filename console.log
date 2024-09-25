@@ -1,0 +1,43 @@
+## Hemos usado este comando, para poder añadir un README en el repositorio.
+echo "# proyecto-web" >> README.md
+
+## Con este comando se inicializa el repositorio Git.
+git init
+
+## Este comando sirve para comprobar si hay archivos para poder agregarlos para realizar el commit.
+git status
+
+## Este sirve para añadir a la "cola" los archivos
+git add [archivos] o . 
+
+## El commit sirve para ingresar un texto en el que se indica los cambios que se han realizado.
+git commit -m "texto indicativo"
+
+## Para poder subir al repositorio el commit realizado previamente.
+git push origin master
+
+## Para poder clonar un repositorio por ssh, se debe ejecutar el siguiente comando:
+git clone git@github.com:NombreUsuario/proyecto.git
+
+## Para la creación de ramas, se utiliza el comando:
+git branch [nombre]
+
+## Para saber si lo hemos creado correctamente, solo debemos ejecutar:
+git branch
+
+## Para cambiar de rama, ejecutamos:
+git checkout [nombre]
+
+## Para modificar el index desde consola tuvimos que ejecutar el siguiente comando:
+sudo nano
+
+## Para poder extraer los archivos del repositorio de Github, debemos ejecutar:
+git pull origin master (U otra rama preferible)
+
+## Este comando se utiliza para fusionar la rama secundaria con la principal
+git merge [rama]
+
+## En caso de haber conflictos, se debe ejecutar git pull para extraer los archivos subidos del compañero y editarlos, una vez editado y solucionado, se debe volver a ejecutar todos los pasos.
+git add .
+git commit -m 
+git push origin master
