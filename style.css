@@ -2,6 +2,18 @@ header {
     background-color: lightblue;
     width: 100%;
     text-align: center;
+    position: fixed; /* Posicionamiento relativo */
+    top: 0; /* Pegado abajo */
+    left: 0; /* Pegado a la izquierda */
+}
+
+.sidebar {
+    background-color: lightgray; /* Color de fondo para la barra lateral */
+    width: 20%; /* Ocupa el 20% de la pantalla */
+    height: calc(100vh - 100px); /* Altura total menos la del header y footer */
+    position: fixed; /* Posicionamiento relativo */
+    bottom: 0; /* Pegado abajo */
+    left: 0; /* Pegado a la izquierda */
 }
 
 footer{
@@ -10,4 +22,5 @@ footer{
     position: fixed; /* Fijo en pantalla */
     bottom: 0; /* Pegado abajo */
     left: 0; /* Pegado a la izquierda */
-    text-align: center; /* Texto centrado */
+    text-align: center; /* Texto centrado */ 
+}
